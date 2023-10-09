@@ -41,7 +41,7 @@ abstract class BaseEntity(
         }
     }
 
-    private fun isAlive(): Boolean {
+    fun isAlive(): Boolean {
         return health > 0
     }
 
